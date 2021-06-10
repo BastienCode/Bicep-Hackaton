@@ -37,6 +37,7 @@ choco install vscode
 - [GitHub Bicep](https://github.com/Azure/bicep) 
 - [GitHub Bicep - Tuto](https://github.com/Azure/bicep/blob/main/docs/tutorial/01-simple-template.md) 
 - [Doc Azure ARM](https://docs.microsoft.com/en-us/azure/templates/) 
+- [Code Sheet](codesheet.md) 
 
 # **Hackaton Bicep**
 
