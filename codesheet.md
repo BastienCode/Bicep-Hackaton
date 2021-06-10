@@ -19,3 +19,21 @@ az deployment group create -f file.bicep -l francecentral
 New-AzResourceGroupDeployment -TemplateFile ./main.bicep -ResourceGroupName my-rg
 ``` 
 
+- [Azure Cli]
+
+Se connecter
+```cli
+az login
+```
+
+Vérifier sa souscription et la sélectionner
+```cli
+az account list -o table
+az account set -s <subId>
+```
+
+Lister resource group et en supprimer un
+```cli
+az group list -o table
+az group delete -g <groupName>
+```
