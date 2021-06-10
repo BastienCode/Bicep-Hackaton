@@ -10,7 +10,7 @@
 - Conversion ARM vers Bicep
 - Deploiement d'une petite plateforme
 
-**TLDR** : [Bicep in Nutshell](Tools/takeaway.md)
+**TLDR** : [Bicep in Nutshell](takeaway.md)
 (Or with [one picture](Tools/True-ARM.jpg))
 
 # **Survival guide**
