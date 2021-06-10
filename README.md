@@ -90,13 +90,13 @@ var myVariable = '${var1}-string'
 >- Organisation en module
 >- Dépendances, gestion des outputs les boucles
 
-// Add visio
-![VisioArcho](blabla)
+![VisioArcho](Tools/module2.png)
+
 ### **A créer**
 - Un resource group __labBicep**02**__
 - Un Virtual Network (simple)
-- Une VM indépendantes
-- Deux VM déployées via une boucle
+- Une VM **VM1** indépendante
+- Deux VM **VM2 VM3** déployées via une boucle
 
 ### **Todo**
 - Créez un fichier **main.bicep**
@@ -158,10 +158,12 @@ Reprennez le module 2 pour réaliser les évolutions suivantes:
 
 **VM**
 > - Récupérez le password dans un key vault existant
-> - Déployez 2 VM dans chaque subnet
+> - Déployez au moins 2 VM dans chaque subnet. Utilisez une boucle basée sur un index
 > - Ajoutez un load balancer sur l'un des bloc de VM
 
 **Azure DevOps**
 > - Deployer votre infra Bicep dans un pipeline
 > - Option 1 - Directement depuis un .bicep
 > - Option 2 - En convertisant le .bicep en json ARM
+
+![VisioArcho](Tools/module4.png)
