@@ -2,8 +2,6 @@
 
 ![BicepLogo](Tools/BicepLogo.png)  ![DevOps](Tools/DevOpsLogo.png)
 
-**Durée**: 2 heures - 16h30 > 18h30
-
 **Au menu**:
 - C'est quoi Bicep ? 
 - Les basiques du langage 
